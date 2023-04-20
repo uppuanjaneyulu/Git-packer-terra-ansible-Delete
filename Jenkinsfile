@@ -29,7 +29,7 @@ pipeline {
             steps {
                     sh 'pwd'
                     sh 'ls -al'
-                    sh "echo variable \\\"ami\\\" { default = \\\"ami-0c543e5b1c5ba9603\\\" } >> variables.tf"
+                    sh "echo variable \\\"ami\\\" { default = \\\"ami-0773fb536098981c0\\\" } >> variables.tf"
             }
         }
         stage('Terraform Plan') {
